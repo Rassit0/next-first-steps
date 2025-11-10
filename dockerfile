@@ -64,3 +64,7 @@ ENV PORT=3000
 # https://nextjs.org/docs/pages/api-reference/config/next-config-js/output
 ENV HOSTNAME="0.0.0.0"
 CMD ["node", "server.js"]
+
+
+# Ejecutar $docker build -t nextjs-first-steps .
+# Luego $docker container run -p 3000:3000 nextjs-first-steps
